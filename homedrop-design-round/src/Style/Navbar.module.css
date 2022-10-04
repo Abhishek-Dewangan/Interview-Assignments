@@ -1,0 +1,120 @@
+#navbar {
+  display: flex;
+  align-items: center;
+  /* position: absolute; */
+  gap: 4em;
+  width: 100%;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.16);
+}
+#menu {
+  /* position: absolute; */
+  left: 1.13%;
+  right: 98.02%;
+  top: 4.69%;
+  bottom: 95.31%;
+
+  background: #94a3b8;
+  border: 3px solid #94a3b8;
+}
+#logoTitle {
+  /* position: absolute; */
+  left: 24.69%;
+  right: 0%;
+  top: 25%;
+  bottom: 25%;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #2d68fe;
+}
+#logo {
+  /* image 1 */
+
+  width: 48px;
+  height: 48px;
+
+  /* background: url(https://thumbs.dreamstime.com/z/initial-letter-sh-logotype-company-name-blue-circle-swoosh-design-vector-logo-business-identity-203854861.jpg); */
+  border-radius: 26px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+#inputBox {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+
+  /* position: absolute; */
+  width: 30%;
+  height: 48px;
+  /* left: 367px; */
+  /* top: 16px; */
+
+  background: #ffffff;
+  border: 1px solid rgba(148, 163, 184, 0.6);
+  border-radius: 6px;
+}
+#searchArea {
+  /* position: absolute; */
+  width: 90%;
+  height: 24px;
+  left: 44px;
+  top: 12px;
+  border: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #94a3b8;
+}
+#searchArea:focus {
+  outline: none;
+}
+
+#connected {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 4px;
+  /* width: 8%; */
+  height: 38px;
+  left: 1522px;
+  top: 21px;
+  color: blue;
+  background: #d1fae5;
+  border-radius: 100px;
+}
+#name {
+  background-color: darkslategray;
+  color: white;
+  border-radius: 50px;
+  padding: 5px;
+}
+#right {
+  position: absolute;
+  right: 0px;
+  display: flex;
+  width: 30%;
+  align-items: center;
+  justify-content: space-around;
+}
+#left {
+  display: flex;
+  width: 20%;
+  align-items: center;
+  justify-content: space-around;
+}

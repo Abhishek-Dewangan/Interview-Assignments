@@ -1,0 +1,24 @@
+#gridBox {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+}
+#card {
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#price{
+    text-decoration: line-through;
+    color: rgb(0, 132, 255);
+}
+#image {
+  width: 124px;
+  height: 124px;
+}
+#blue{
+    color: rgb(0, 119, 255);
+}
+#red{
+    color: red;
+}

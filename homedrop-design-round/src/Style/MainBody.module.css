@@ -1,0 +1,59 @@
+#body {
+  width: 85%;
+  padding: 0 1em;
+  background-color: aliceblue;
+}
+#heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#addProduct {
+  height: 30px;
+  background-color: rgb(28, 175, 224);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+#miniNav {
+  display: flex;
+  justify-content: space-between;
+}
+.side {
+  display: flex;
+  gap: 1.5em;
+  justify-content: space-between;
+}
+#mainBox {
+  background-color: white;
+  height: 100vh;
+  padding: 10px;
+}
+#inputBox {
+  display: flex;
+  align-items: center;
+  border: solid 1px silver;
+  width: 18%;
+  padding: 5px;
+}
+#cross {
+  font-weight: lighter;
+  color: grey;
+}
+#searchBox {
+  border: none;
+}
+#searchBox:focus {
+  outline: none;
+}
+#filterNavbar {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  gap: 1em;
+}
+#filterNavbar > select {
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid silver;
+}
