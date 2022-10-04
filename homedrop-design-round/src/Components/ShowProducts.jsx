@@ -1,6 +1,7 @@
 import React from 'react';
 import { data } from '../Data/GroceryData';
 import styles from '../Style/ShowProducts.module.css';
+import { BsThreeDotsVertical } from 'react-icons/bs';
 
 const ShowProducts = () => {
   return (
@@ -19,6 +20,7 @@ const ShowProducts = () => {
                 <p id={styles.red}>Out of Stock</p>
               )}
             </div>
+            <BsThreeDotsVertical id={styles.moreIcon}/>
           </div>
         );
       })}

@@ -6,19 +6,26 @@
 #card {
   display: flex;
   align-items: center;
+  position: relative;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 10px;
 }
-#price{
-    text-decoration: line-through;
-    color: rgb(0, 132, 255);
+#price {
+  text-decoration: line-through;
+  color: rgb(0, 132, 255);
 }
 #image {
   width: 124px;
   height: 124px;
 }
-#blue{
-    color: rgb(0, 119, 255);
+#blue {
+  color: rgb(0, 119, 255);
 }
-#red{
-    color: red;
+#red {
+  color: red;
+}
+#moreIcon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }

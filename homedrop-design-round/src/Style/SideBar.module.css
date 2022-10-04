@@ -1,13 +1,13 @@
-#body{
-    width: 13%;
-    background-color: #0F172A;
-    height: 100vh;
-    color: aliceblue;
-    padding: 1em;
+#body {
+  width: 13%;
+  background-color: #0f172a;
+  height: 100vh;
+  color: aliceblue;
+  padding: 1em;
 }
-.sideBarOptions{
-    display: flex;
-    align-items: center;
-    width: 70%;
-    gap: 1em;
+.sideBarOptions {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  gap: 1em;
 }
