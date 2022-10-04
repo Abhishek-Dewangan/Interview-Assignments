@@ -80,31 +80,4 @@ export const data = [
     image:
       'https://www.bigbasket.com/media/uploads/p/xxl/40238473-2_4-cadbury-dairy-milk-silk-bubbly-bubblegum-chocolate-bar-with-flavoured-centre.jpg',
   },
-  {
-    id: 10,
-    name: 'Cadburry',
-    price: 110,
-    offerPrice: 100,
-    stockStatus: false,
-    image:
-      'https://www.bigbasket.com/media/uploads/p/xxl/40238473-2_4-cadbury-dairy-milk-silk-bubbly-bubblegum-chocolate-bar-with-flavoured-centre.jpg',
-  },
-  {
-    id: 11,
-    name: 'Cadburry',
-    price: 110,
-    offerPrice: 100,
-    stockStatus: false,
-    image:
-      'https://www.bigbasket.com/media/uploads/p/xxl/40238473-2_4-cadbury-dairy-milk-silk-bubbly-bubblegum-chocolate-bar-with-flavoured-centre.jpg',
-  },
-  {
-    id: 12,
-    name: 'Cadburry',
-    price: 110,
-    offerPrice: 100,
-    stockStatus: true,
-    image:
-      'https://www.bigbasket.com/media/uploads/p/xxl/40238473-2_4-cadbury-dairy-milk-silk-bubbly-bubblegum-chocolate-bar-with-flavoured-centre.jpg',
-  },
 ];
